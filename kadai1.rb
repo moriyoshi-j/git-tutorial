@@ -9,6 +9,8 @@ int main() {
       puts "Fizz"
     elsif i % 5 == 0
        puts "Buzz"
+    elsif i % 7 == 0
+      puts "Git"
     else
       puts "i.to_s"
     end
